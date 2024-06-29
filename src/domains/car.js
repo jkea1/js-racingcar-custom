@@ -12,7 +12,7 @@ export const createCar = (name) => {
 }
 
 export const moveCar = (car) => {
-  let randomNum = getRandomNum()
+  const randomNum = getRandomNum()
 
   if (validateRandomNum(randomNum)) {
     return { ...car, position: car.position + 1 }
