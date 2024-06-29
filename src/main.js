@@ -15,7 +15,7 @@ async function main() {
 
   for (let i = 0; i < RACE_ROUND; i++) {
     cars = cars.map((car) => {
-      let movedCar = moveCar(car)
+      const movedCar = moveCar(car)
 
       printCar(movedCar)
 
